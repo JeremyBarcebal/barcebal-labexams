@@ -1,0 +1,215 @@
+body{
+    background-image: url(images/view.jpg);
+    height: 1000px;
+      background-size:cover;
+      background-repeat: no-repeat;
+}
+#logo{
+  background-image: url(images/logo.jpg);
+opacity: .6;
+  height: 100px;
+  width: 100px;
+    background-size: 100% 100%;
+    margin-left:80px;
+    margin-top: -15px;
+    position: relative;
+}
+h1{
+    color: #FFF6E9;
+    text-align: center;
+    padding-top: 0em;
+    font-size: 2.5em;
+    position: relative;
+    margin-top: -45px;
+}
+h2{
+    position: absolute;
+    display: block;
+    color: #FFF6E9;
+    font-size: 37px;
+    text-align: center;
+    margin-left: 14px;
+}
+header{
+    font-family: Georgia,serif;
+    height: 168px;
+}
+nav{
+    list-style-type: none;
+    padding-top: 2em;
+    padding-right: 2em;
+    text-align:right
+}
+nav a{
+    text-decoration: none;
+    background-color:#0D9276;
+    color:#EEEEEE;
+    font-weight: bold;
+    background-size: 2em;
+    padding: 5px;
+    border-radius: 30px;
+}
+nav a:hover{
+  background-color:#EEEEEE ;
+  color: #0D9276;
+}
+nav a:active{
+    background-color:#EEEEEE ;
+    color: #0D9276;
+}
+
+main{
+padding-left: 2em;
+padding-right: 2em;
+overflow: auto;
+}
+.thoughts{
+    position: absolute;
+    text-align: center;
+    border: 2px transparent;
+    box-shadow: 5px 5px 15px 5px black;
+    display: inline-block;
+    padding: 30px;
+    width: 408px;
+    border-radius: 10px;
+    margin-left: 182px;
+    color: #c38132;
+    transition: transform 0.2s ease-in-out;
+    margin-top: -341px;
+    background-color: #ffffff21;
+}
+.thoughts:hover{
+    background-color:#EEEEEE ;
+    color: #0D9276;
+    transform:scale(1.01);
+    border-radius: 10px;
+}
+
+.define{
+    text-align: center;
+    border: 2px transparent;
+    box-shadow: 5px 5px 15px 5px black;
+    display: inline-block;
+    padding: 30px;
+    width: 150px;
+    border-radius: 10px;
+    margin-left: 684px;
+    color: bisque;
+    transition: transform 0.2s ease-in-out;
+    background-color: #ffffff21;
+}
+.define:hover{
+    background-color:#EEEEEE ;
+    color: #0D9276;
+    transform:scale(1.01);
+    border-radius: 10px;
+}
+.address{
+    margin-left: 34px;
+    margin-top: -141px;
+    padding: 11px;
+    position: absolute;
+    border: 2px transparent;
+    border-radius: 10px;
+    color: bisque;
+    box-shadow: 5px 5px 15px 5px black;
+    transition: transform 0.2s ease-in-out;
+    
+}
+.address a{
+    text-decoration: none;
+}
+.address:hover{
+    background-color:#EEEEEE ;
+    color: #0D9276;
+    transform:scale(1.01);
+    border-radius: 10px;
+}
+.address a:link{
+    background-color:#EEEEEE ;
+    color: #0D9276;
+}
+.address a:visited{
+    color: #0D9276;
+}
+
+#wrapper{
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    min-width: 960px;
+    max-width: 2048px;
+    box-shadow: 5px 5px 15px 5px #000000;
+    height: 650px;
+    background-image: url(images/AboutUS.jpg);
+      background-size:contain;
+      background-position: right;
+      background-repeat: no-repeat;
+      margin-top: 10px;
+}
+
+.logo-container {
+   
+    margin-top: 25px;
+    padding-top: 24px;
+    position: relative;
+    width: 200px;
+    height: 30px;
+    overflow: hidden;
+    display: inline-flex;
+    border: 2px transparent;
+    padding-bottom: 1px;
+    padding-right: 4px;
+    margin-left: 80px;
+  }
+  
+
+  .logo-container img {
+    margin-top: -20px;
+    width: 45px;
+    height: auto;
+    transition: transform 0.3s ease;
+    padding-left: 4px;
+  }
+
+  .logo-container:hover img {
+    transform: scale(1.1); /* Adjust scale factor as needed */
+  }
+
+  .image-overlay {
+    position: absolute;
+    padding-top: 30px;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 45%;
+    border-radius: 2px;
+    background: rgba(0, 0, 0, 0.418); /* Adjust overlay color and opacity as needed */
+    color: white;
+    transition: transform 0.3s ease, opacity 0.3s ease; /* Added transform transition */
+    transform: translateX(-100%); /* Initially off the screen to the right */
+    display: flex;
+    justify-content: flex-end; /* Align content to the right */
+    align-items: center;
+  }
+
+  .logo-container:hover .image-overlay {
+    transform: translateX(0); /* Slide the overlay to the right when hovered */
+  }
+
+  .image-text {
+    text-align: center;
+    padding-bottom: 39px;
+    padding-right: 9px; /* Add padding for better readability */
+  }
+  .image-text a:link{
+    color: white;
+  }
+  .image-text a:visited{
+    color: white;
+  }
+  footer{
+    background-color: #000000c7;
+    height: 102px;
+  }

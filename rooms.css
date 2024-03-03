@@ -1,0 +1,127 @@
+body{
+    background-image: url(images/view.jpg);
+    height: 1250px;
+      background-size:cover;
+      background-repeat: no-repeat;
+}
+#logo{
+  background-image: url(images/logo.jpg);
+opacity: .6;
+  height: 100px; 
+  width: 100px;
+    background-size: 100% 100%;
+    margin-left:80px;
+}
+h1{
+    color: #FFF6E9;
+    text-align: center;
+    padding-top: 0em;
+    font-size: 2.5em;
+    position: relative;
+    margin-top: -40px;
+}
+h2{
+  text-align: center;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+  font-size: 35px;
+  margin-top:-15px;
+}
+h3{
+  text-align: center;
+}
+
+header{
+    font-family: Georgia,serif;
+    position: relative;
+}
+nav{
+    list-style-type: none;
+    padding-top: 2em;
+    padding-right: 2em;
+    text-align:right;
+}
+nav a{
+    text-decoration: none;
+    background-color:#0D9276;
+    color:#EEEEEE;
+    font-weight: bold;
+    font-size: 19px;
+    background-size: 2em;
+    padding: 5px;
+    border-radius: 30px;
+}
+nav a:hover{
+  background-color:#EEEEEE ;
+  color: #0D9276;
+}
+#wrapper{
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: auto;
+  width: 70%;
+  min-width: 960px;
+  max-width: 2048px;
+  box-shadow: 5px 5px 15px 5px #000000;
+  background-image: linear-gradient(#111a50b6,#90c7e3ea,#90c7e360);
+  height: 1250px;
+  backdrop-filter:blur(1px);
+    background-size:100% 100%;
+    background-repeat: no-repeat;
+}
+.container1{
+  display: flex;
+  position: relative;
+  
+}
+.container2{
+  display: flex;
+  position: relative;
+  margin-top: -15px;
+ 
+}
+.card{
+  margin-left: 90px;
+  margin-right: 50px;
+  margin-bottom: 50px;
+  padding: 10px;
+  overflow: hide;
+  text-align: left;
+  border: 2px transparent;
+  box-shadow: 5px 5px 15px 5px #000000;
+  border-radius: 8px;
+  transition: transform 0.2s ease-in-out;
+  background-color:#EEEEEE;
+    color:#0D9276;
+
+}
+.card img{
+  margin-left: 20px;
+  display: block;
+  padding: 10px;
+  height: 110px;
+  width: 150px;
+  
+}
+.card:hover{
+  background-color:#EEEEEE ;
+  color: #0D9276;
+  transform:scale(1.2);
+}
+.card a:link{
+  color:black;
+  
+}
+.card a:visited{
+  color:#0D9276;
+  background-color: white;
+}
+.card a:after{
+  color: white;
+}
+.card a{
+  text-decoration: none;
+}
+
+
+
