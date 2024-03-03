@@ -72,12 +72,14 @@ nav a:hover{
 .container1{
   display: flex;
   position: relative;
+    margin-left: -65px;
   
 }
 .container2{
   display: flex;
   position: relative;
   margin-top: -15px;
+    margin-left: -65px;
  
 }
 .card{
